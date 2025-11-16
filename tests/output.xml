@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.10.5 on win32)" generated="2025-11-16T18:27:09.127764" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Dfa" source="C:\Users\MaciejBurakowski(258\Desktop\Gramatyki-automaty-i-biokomputery\tests\test_dfa.robot">
+<test id="s1-t1" name="Test Word Accepted" line="5">
+<kw name="Check Accepts">
+<msg time="2025-11-16T18:27:09.157758" level="FAIL">No keyword with name 'Check Accepts' found.</msg>
+<var>${res}</var>
+<arg>aab</arg>
+<status status="FAIL" start="2025-11-16T18:27:09.157758" elapsed="0.000000">No keyword with name 'Check Accepts' found.</status>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${res}</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="NOT RUN" start="2025-11-16T18:27:09.157758" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-11-16T18:27:09.152734" elapsed="0.005024">No keyword with name 'Check Accepts' found.</status>
+</test>
+<test id="s1-t2" name="Test Word Rejected" line="9">
+<kw name="Check Accepts">
+<msg time="2025-11-16T18:27:09.157758" level="FAIL">No keyword with name 'Check Accepts' found.</msg>
+<var>${res}</var>
+<arg>aba</arg>
+<status status="FAIL" start="2025-11-16T18:27:09.157758" elapsed="0.000000">No keyword with name 'Check Accepts' found.</status>
+</kw>
+<kw name="Should Be False">
+<arg>${res}</arg>
+<status status="NOT RUN" start="2025-11-16T18:27:09.157758" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-11-16T18:27:09.157758" elapsed="0.000000">No keyword with name 'Check Accepts' found.</status>
+</test>
+<status status="FAIL" start="2025-11-16T18:27:09.127764" elapsed="0.029994"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="Test Dfa">Test Dfa</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-11-16T18:27:09.152734" level="ERROR">Error in file 'C:\Users\MaciejBurakowski(258\Desktop\Gramatyki-automaty-i-biokomputery\tests\test_dfa.robot' on line 2: Library 'tests\resources\KeywordsLibrary.py' does not exist.</msg>
+</errors>
+</robot>

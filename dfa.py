@@ -26,7 +26,7 @@ class DFA:
         # transition dictionary
         self.transitions = defaultdict(dict)
 
-    def add_state(self, state, accepting=False):
+    def add_state(self, state, accepting_states=False):
         """
         Adds a new state, can mark a state as accepting
         :param state:
@@ -34,7 +34,7 @@ class DFA:
         :return:
         """
         self.states.add(state)
-        if accepting:
+        if accepting_states:
             self.accepting_states.add(state)
 
     def set_start(self, state):

@@ -210,3 +210,6 @@ __marimo__/
 output.xml
 log.html
 report.html
+tests/output.xml
+tests/log.html
+tests/report.html

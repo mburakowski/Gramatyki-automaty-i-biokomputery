@@ -206,7 +206,7 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-#Robot Framework
+# Robot Framework outputs
 output.xml
 log.html
 report.html
